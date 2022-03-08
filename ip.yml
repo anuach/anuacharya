@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: Use ifconfig command
+    command: 'ifconfig'

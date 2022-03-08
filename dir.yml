@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: Use mkdir command
+    command: 'mkdir /home/ubuntu/myproject'
